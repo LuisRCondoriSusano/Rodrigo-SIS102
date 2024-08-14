@@ -13,7 +13,9 @@ El proposito de este repositorio es la de contener los proyectos para la asignat
 
 Para clonar este repositorio, utiliza el siguiente comando en git bash:
 1. Copia la URL del repositorio.
+
 ![](imagen.png)
+
 2. Abre Git Bash.
 3. Navega a la carpeta donde deseas clonar el repositorio usando "cd" o abrela desde tu Explorador de Archivos.
 ![](i2.png)
