@@ -1,4 +1,11 @@
-opcion=int(input("escoja una opcion//1.Suma 2.Resta 3.Multiplicacion 4.Division "))
+print("Seleccione una opción:")
+print("1: Suma")
+print("2: Resta")
+print("3: Multiplicación")
+print("4: División")
+print("5: Salir")
+print("--------------------------")
+opcion = int(input("Ingrese la opción deseada: "))
 n1 = int(input("ingrese primer numero "))
 n2 = int(input("ingrese segundo numero "))
 def suma(n1,n2):
