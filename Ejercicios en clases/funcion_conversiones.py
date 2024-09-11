@@ -10,4 +10,3 @@ def celsiusAfah(num1):
     return (num1*1.8) + 32
 def fahAcelcuis(num1):
     return (num1-32)/1.8
-

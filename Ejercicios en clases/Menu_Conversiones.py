@@ -11,8 +11,9 @@ def menu():
 menu()
 while True:
     
-    num1=float(input("Deme un numero: ")) 
     opcion=int(input("Seleciones que opcion desea hacer: "))
+    num1=float(input("Deme un numero: ")) 
+    
     if opcion == 7:
         print("Saliendo")
         break
