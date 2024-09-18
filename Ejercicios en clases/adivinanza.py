@@ -6,7 +6,7 @@ print("Adivine el numero ")
 contador=0
 while True:
     n_usuario=int(input("De un numero "))
-    
+    contador+=1
     if n_usuario<n_secreto:
         print("Demasiado bajo")
     elif n_usuario>n_secreto:
@@ -14,7 +14,7 @@ while True:
     elif n_usuario==n_secreto:
         print("Felicidades")
         break
-    contador+=1
+    
     
 print("El numero de intentos fue: ")
 print(contador)
