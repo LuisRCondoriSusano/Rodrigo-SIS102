@@ -31,6 +31,6 @@ def cal_promedio(lista):
 def max_min_notas(lista):
     maximo = max(lista)
     minimo = min(lista)
-    return print(f"El maximo es : {maximo} \nEl minimo es: {minimo}")
+    return print(f"El maximo es : {maximo}\nEl minimo es: {minimo}")
 
     
