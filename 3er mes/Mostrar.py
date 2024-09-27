@@ -1,4 +1,4 @@
-import funciones
+import F_repaso
 lista_notas=[]
 def menu():
     print("------------NOTAS-------------")
@@ -17,17 +17,17 @@ while True:
         print("Saliendo")
         break
     if opcion==1:
-        funciones.agregrar_nota(lista_notas)
+        F_repaso.agregrar_nota(lista_notas)
     elif opcion==2:
-        funciones.eliminar_nota(lista_notas) 
+        F_repaso.eliminar_nota(lista_notas) 
     elif opcion==3:
-        funciones.modificar_nota(lista_notas)
+        F_repaso.modificar_nota(lista_notas)
     elif opcion==4:
            
-        print(f"Promedio: {funciones.calcular_promedio(lista_notas)}")
+        print(f"Promedio: {F_repaso.calcular_promedio(lista_notas)}")
     elif opcion==5:
         
-        max, min = funciones.max_min(lista_notas) 
+        max, min = F_repaso.max_min(lista_notas) 
         print(f"el maximo es: {max} y el minimo es: {min}") 
     print(f"lista de notas {lista_notas}")
 
