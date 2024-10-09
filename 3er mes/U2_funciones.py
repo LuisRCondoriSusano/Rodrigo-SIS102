@@ -1,4 +1,5 @@
 import random
+
 def generarLista(a,b,c,f):
     for i in range(a):
         aleatorio=random.randint(b, c)
