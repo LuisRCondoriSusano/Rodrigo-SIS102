@@ -1,6 +1,5 @@
 import random
 
-
 lista=[]
 def crear_lista():
     for i in range(100):
