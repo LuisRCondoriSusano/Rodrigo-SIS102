@@ -3,7 +3,8 @@ def generarLista(a,b,c,f):
     for i in range(a):
         aleatorio=random.randint(b, c)
         f.append(aleatorio)
-    return f    
+    return f  
+  
 def encontrarNumero(f, numero):
     for i in range(len(f)):
         if (numero==f[i]):
