@@ -6,7 +6,9 @@ for i in range(100):
 print(lista)
 print(type(lista))
 print(len(lista))    
+
 lista_2=[]
+
 rang=int(input("Dame el numero de elementos de la lista "))
 Vmin=int(input("Dame el valor minimo que debe tener "))
 Vmax=int(input("Dame el valor maximo que debe tener "))
