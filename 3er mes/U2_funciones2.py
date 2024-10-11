@@ -1,16 +1,13 @@
 import random
 
-def generarLista(a, b, c, f):
-    while len(f) < a:
-        numero=random.randint(b, c)
-        if numero not in f:
-            f.append(numero)  
-    return f    
+def generarLista(a, b, c):
+    lista = random.sample(range(b, c + 1), a)
+    return lista
   
 def encontrarNumero(f, numero):
     for i in range(len(f)):
         if (numero==f[i]):
-            print(f"numero encontrado en el indice {i}")
+            print(f"Numero encontrado con busqueda lineal en el indice {i}")
             return 1
 
 def busqueda_binaria(x, num):
@@ -18,7 +15,7 @@ def busqueda_binaria(x, num):
     while izquierda <= derecha:
         medio = (izquierda + derecha) // 2 
         if x[medio] == num:
-            print(f"Número encontrado en el índice {medio}") 
+            print(f"Número encontrado con busqueda binaria en el índice {medio}") 
             return medio 
         elif x[medio] < num:
             izquierda = medio + 1
